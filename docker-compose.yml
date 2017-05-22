@@ -1,0 +1,9 @@
+web:
+  image: oppara/centos6-apache-php
+  ports:
+    - "8000:80"
+    - "8443:443"
+  volumes:
+    - .:/var/www/html
+    # - "./my.ini:/etc/php.d/my.ini"
+    # - "./dev.conf:/etc/httpd/conf.d/dev.conf"
