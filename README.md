@@ -1,5 +1,8 @@
 # centos6 + apache + php
 
+[![](https://images.microbadger.com/badges/image/oppara/centos6-apache-php.svg)](https://microbadger.com/images/oppara/centos6-apache-php "Get your own image badge on microbadger.com")
+
+
 image作成
 
 ```
