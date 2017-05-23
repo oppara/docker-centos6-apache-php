@@ -3,17 +3,25 @@
 [![](https://images.microbadger.com/badges/image/oppara/centos6-apache-php.svg)](https://microbadger.com/images/oppara/centos6-apache-php "Get your own image badge on microbadger.com")
 
 
-image作成
+## Supported tags
+
+* 71, latest
+* 70
+
+
+## build
 
 ```
 $ docker build -t oppara/centos6-apache-php .
+```
 
 or
 
+```
 $ docker build -t oppara/centos6-apache-php:TAG .
 ```
 
-確認
+## compose
 
 ```
 $ docker-compose up
