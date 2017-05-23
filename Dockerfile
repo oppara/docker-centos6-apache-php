@@ -2,8 +2,6 @@ FROM centos:6.8
 
 MAINTAINER oppara
 
-ENV VERSION 71
-
 RUN cp -p /usr/share/zoneinfo/Japan /etc/localtime \
     && echo 'ZONE="Asia/Tokyo"' > /etc/sysconfig/clock \
     && echo 'UTC="false"' >> /etc/sysconfig/clock  \
@@ -36,6 +34,7 @@ RUN yum -y install \
     && yum clean all
 
 
+ENV VERSION 70
 
 RUN mkdir /root/tmp
 COPY scripts/php* /root/tmp/
