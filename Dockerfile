@@ -34,7 +34,7 @@ RUN yum -y install \
     && yum clean all
 
 
-ENV VERSION 71
+ENV VERSION 56
 
 RUN mkdir /root/tmp
 COPY scripts/php* /root/tmp/
