@@ -1,5 +1,5 @@
 SHELL=/bin/bash
-VERSION := latest
+VERSION := 5.6
 
 all: help ## show this help
 
