@@ -4,8 +4,9 @@
 
 ## Supported tags
 
-* 71, latest
-* 70
+* 7.1, latest
+* 7.0
+* 5.6
 
 
 ## build
