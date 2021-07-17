@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: oppara/centos6-apache-php
+    image: oppara/centos6-apache-php:7.1
     container_name: centos6-apache-php
     ports:
       - "8000:80"
